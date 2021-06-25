@@ -1,9 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-data0 = pd.read_csv("D:/Globe signals/305.csv")
+data0 = pd.read_csv("csv files/305.csv")
 print(data0)
-data = pd.read_csv("D:/Globe signals/301.csv").iloc[:, 0]
+data = pd.read_csv("csv files/301.csv").iloc[:, 0]
 # print(data)
 plt.plot(data[:100])
 plt.show()
